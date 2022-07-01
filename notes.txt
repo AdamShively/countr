@@ -1,12 +1,8 @@
 function isPrime(number) {
 
-    //Numbers less than or equal to 1 can't be prime.
     if (number <= 1)
         return false;
     
-  
-    //Loop through all numbers up to the number we are checking.
-    //If any numbers divide it evenly, then it is not a prime number.
     for (let i = 2; i < number; i++)
         if (number % i == 0)
             return false;
