@@ -56,7 +56,7 @@
     <main class="flex-shrink-0">
         <div class="container mt-5 py-5">
             <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col col-lg-4"">
+                <div class="col col-lg-6">
                     <h1 class="lh-1 mb-3"> <span class="logofont">c0untr</span>: From Zero to 100</h1>
                     <p>A javascript coding challenge that uses loops to display numbers 0 
                         to 100. Even numbers are displayed in a <span class="even">BLUE</span> 
@@ -64,10 +64,10 @@
                         font. Numbers that are a multiple of 10 are displayed in 
                         <span span style="font-weight: 1000;">BOLD</span> and are <span style="font-style: italic;">ITALIC</span>.
                     </p>
-                    <p class="mt-5 border-bottom border-1">Instructions</p>
+                    <p class="mt-5 border-bottom">Instructions</p>
                     <p>Enter the starting and ending values. Press "Display Results" button to start.</p>
                 </div>
-                <div class="col col-lg-8 border-start">
+                <div class="col col-lg-6 border-start">
                     <div>
                         <div col></div>
                         <h4>Enter Values Below</h4>
@@ -82,8 +82,10 @@
                                 <button id="submitbtn" type="button" class="btn btn-warning btn-large">Display Results</button>
                             </div>
                         </form>
-                        <h4 class="mt-5 border-bottom border-1">Results</h4>
-                        <div class="table-responsive">
+                        <h4 class="mt-5 border-bottom" style="text-align: center; margin: 0 auto;max-width: 25%;margin-bottom: 15px;">
+                            Results
+                        </h4>
+                        <div class="table-responsive-sm">
                             <table class="table table-striped table-sm"> <!--sm tightens table resposive allows scroll-->
                                 <tbody id="results">
                                 </tbody>

@@ -51,6 +51,13 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary);
 }
 
+.table {
+    background: rgba(255, 166, 0, 0.204);
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .bsicon {
     color: purple;
 }
